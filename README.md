@@ -1,6 +1,6 @@
 # ReBorn_recipes
 ReBornの錬金レシピ一覧と検索・閲覧用便利ツール
-[recipes_search.html](https://github.com/user-attachments/files/32751043/recipes_search.html)
+[recipes_search.html](https://github.com/user-attachments/files/32751043/recipes_search.html)[recipes_search_fixed.html](https://github.com/user-attachments/files/32753214/recipes_search_fixed.html)
 <!DOCTYPE html>
 <html lang="ja"><head>
 <meta charset="utf-8">
@@ -105,7 +105,7 @@ p{margin:0}
   display:flex;align-items:center;gap:4px;
 }
 .list .grp:first-child{border-top:0;margin-top:0}
-.list .empty{padding:10px 12px;color:var(--mut);font-size:13px}
+.list .empty{padding:10px 12px;color:var(--fg);font-size:13px;background:var(--card);border-radius:6px}
 /* ===== 素材3候補の「レシピあり」表示 ===== */
 .list .item.glow{
   font-weight:600;color:var(--fg);
