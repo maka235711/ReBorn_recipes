@@ -1,6 +1,6 @@
 # ReBorn_recipes
 ReBornの錬金レシピ一覧と検索・閲覧用便利ツール
-[recipes_search.html](https://github.com/user-attachments/files/32751043/recipes_search.html)[recipes_search_fixed.html](https://github.com/user-attachments/files/32753214/recipes_search_fixed.html)
+[recipes_search_fixed (2).html](https://github.com/user-attachments/files/32754231/recipes_search_fixed.2.html)
 <!DOCTYPE html>
 <html lang="ja"><head>
 <meta charset="utf-8">
@@ -219,6 +219,11 @@ p{margin:0}
 .table-wrap{border-radius:var(--radius);overflow:auto;max-height:80vh}
 table{border-collapse:collapse;width:100%;font-size:14px}
 th,td{padding:10px;border-bottom:1px solid var(--line);text-align:left;white-space:nowrap}
+/* ライト／ダーク両テーマで表の文字色と行背景を明示 */
+tbody{color:var(--fg)}
+tbody td{color:var(--fg);background-color:transparent}
+tbody tr{background-color:var(--bg)}
+tbody tr:nth-child(even){background-color:var(--card)}
 thead th{
   font-size:11px;color:var(--mut);font-weight:600;
   background:var(--card);letter-spacing:.04em;
